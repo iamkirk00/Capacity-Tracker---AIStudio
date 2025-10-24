@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { CapacityState, CheckIn } from '../types';
+import { CapacityState, CheckIn } from '../types.ts';
 
 interface CheckInFormProps {
   onSubmit: (capacity: CapacityState, journal: string, timestamp: number) => void;

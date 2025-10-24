@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckIn } from '../types';
+import { CheckIn } from '../types.ts';
 
 interface LogListProps {
   checkIns: CheckIn[];

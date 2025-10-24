@@ -1,8 +1,7 @@
-
 import React, { useState, useEffect } from 'react';
 import { HashRouter, Routes, Route, useParams, useNavigate, useLocation } from 'react-router-dom';
-import DashboardPage from './pages/DashboardPage';
-import LoginPage from './pages/LoginPage';
+import DashboardPage from './pages/DashboardPage.tsx';
+import LoginPage from './pages/LoginPage.tsx';
 
 const App: React.FC = () => {
   return (

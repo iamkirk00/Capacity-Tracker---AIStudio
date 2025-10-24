@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useUserData } from '../hooks/useUserData';
-import Header from '../components/Header';
-import CheckInForm from '../components/CheckInForm';
-import CapacityChart from '../components/CapacityChart';
-import LogList from '../components/LogList';
-import { CapacityState } from '../types';
+import { useUserData } from '../hooks/useUserData.ts';
+import Header from '../components/Header.tsx';
+import CheckInForm from '../components/CheckInForm.tsx';
+import CapacityChart from '../components/CapacityChart.tsx';
+import LogList from '../components/LogList.tsx';
+import { CapacityState } from '../types.ts';
 
 interface DashboardPageProps {
   userId: string;

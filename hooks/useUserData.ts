@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { CheckIn, CapacityState, CheckInType } from '../types';
+import { CheckIn, CapacityState, CheckInType } from '../types.ts';
 
 const calculateOverallCapacity = (capacity: CapacityState): number => {
   const { energy, attention, physical } = capacity;
